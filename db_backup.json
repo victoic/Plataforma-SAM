@@ -1,0 +1,400 @@
+[
+{"type":"header","version":"4.9.7","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"sam"},
+{"type":"table","name":"achievements","database":"sam","data":
+[
+{"id":"13","name":"Iniciante","description":"Bem vindo ao SAM! Várias aventuras te esperam, vá explorar.","points":"0","created_at":"2016-07-29 20:23:50","updated_at":"2016-07-29 20:23:50","icon":"iniciante.png"},
+{"id":"14","name":"Aventureiro","description":"Você completou sua primeira Atividade","points":"2","created_at":"2016-07-29 23:31:45","updated_at":"2016-07-29 23:31:45","icon":"aventureiro.png"},
+{"id":"15","name":"Guerreiro","description":"Você completou seu primeiro Módulo!","points":"2","created_at":"2016-07-29 23:36:04","updated_at":"2016-07-29 23:36:04","icon":"guerreiro.png"},
+{"id":"16","name":"Paladino","description":"Você completou 1 Aventura!","points":"2","created_at":"2016-07-29 23:36:54","updated_at":"2016-07-29 23:36:54","icon":"paladino.png"},
+{"id":"17","name":"Rei dos Números","description":"Você completou 5 Aventuras! Uau!","points":"5","created_at":"2016-07-29 23:38:01","updated_at":"2016-07-29 23:38:01","icon":"rei dos números.png"},
+{"id":"18","name":"Estudioso","description":"Você chegou ao nível 2!","points":"2","created_at":"2016-07-29 23:40:20","updated_at":"2016-07-29 23:40:20","icon":"estudioso.png"},
+{"id":"19","name":"Feiticeiro","description":"Você chegou ao nível 3!","points":"2","created_at":"2016-07-29 23:42:29","updated_at":"2016-07-29 23:42:29","icon":"feiticeiro.png"},
+{"id":"20","name":"Mago","description":"Você chegou ao nível 4!","points":"2","created_at":"2016-07-29 23:43:01","updated_at":"2016-07-29 23:43:01","icon":"mago.png"},
+{"id":"21","name":"Matemágico","description":"Você chegou ao nível 5! Uau!","points":"5","created_at":"2016-07-29 23:44:03","updated_at":"2016-07-29 23:44:03","icon":"matemágico.png"},
+{"id":"22","name":"Vigia","description":"Você passou 30 minutos fazendo atividades no SAM!","points":"2","created_at":"2016-07-29 23:44:53","updated_at":"2016-07-29 23:44:53","icon":"vigia.png"},
+{"id":"23","name":"Explorador","description":"Você passou 1 hora fazendo atividades no SAM!","points":"2","created_at":"2016-07-29 23:46:28","updated_at":"2016-07-29 23:46:28","icon":"explorador.png"},
+{"id":"24","name":"Caçador de Números","description":"Você passou 2 horas fazendo atividades no SAM!","points":"2","created_at":"2016-07-29 23:47:43","updated_at":"2016-07-29 23:47:43","icon":"caçador de números.png"},
+{"id":"25","name":"Senhor do Tempo","description":"Você passou 4 horas fazendo atividades no SAM! Uau!","points":"5","created_at":"2016-07-29 23:49:01","updated_at":"2016-07-29 23:49:01","icon":"senhor do tempo.png"},
+{"id":"26","name":"Mestre de Calabouços","description":"Você é um criador de conteúdos!","points":"0","created_at":"2016-08-05 00:09:00","updated_at":"2016-08-05 00:09:00","icon":"teacher.png"}
+]
+}
+,{"type":"table","name":"activities","database":"sam","data":
+[
+{"id":"109","description":"Atividade que ensina os números 1, 2 e 3.","rating":"0","votes":"0","created_at":"2016-08-06 00:22:29","updated_at":"2016-08-06 00:22:29","id_module":null,"id_topic":"1","id_creator":"3"},
+{"id":"110","description":"Atividade que ensina os números 4, 5 e 6.","rating":"0","votes":"0","created_at":"2016-08-06 02:45:19","updated_at":"2016-08-06 02:45:19","id_module":null,"id_topic":"1","id_creator":"3"},
+{"id":"111","description":"Atividade que ensina os números 7, 8 e 9.","rating":"0","votes":"0","created_at":"2016-08-06 03:10:53","updated_at":"2016-08-06 03:10:53","id_module":null,"id_topic":"1","id_creator":"3"},
+{"id":"112","description":"Contagem básica.","rating":"0","votes":"0","created_at":"2016-08-06 03:35:08","updated_at":"2016-08-06 03:35:08","id_module":null,"id_topic":"6","id_creator":"3"},
+{"id":"113","description":"Contagem de objetos.","rating":"0","votes":"0","created_at":"2016-08-06 03:56:57","updated_at":"2016-08-06 03:56:57","id_module":null,"id_topic":"6","id_creator":"3"},
+{"id":"114","description":"Contagem em situações.","rating":"0","votes":"0","created_at":"2016-08-06 04:46:04","updated_at":"2016-08-06 04:46:04","id_module":null,"id_topic":"6","id_creator":"3"},
+{"id":"115","description":"Princípios da soma.","rating":"0","votes":"0","created_at":"2016-08-06 05:14:36","updated_at":"2016-08-06 05:14:36","id_module":null,"id_topic":"2","id_creator":"3"},
+{"id":"116","description":"Soma com objetos","rating":"0","votes":"0","created_at":"2016-08-06 05:48:22","updated_at":"2016-08-06 05:48:22","id_module":null,"id_topic":"2","id_creator":"3"},
+{"id":"117","description":"Soma com números","rating":"0","votes":"0","created_at":"2016-08-06 06:00:15","updated_at":"2016-08-06 06:00:15","id_module":null,"id_topic":"2","id_creator":"3"}
+]
+}
+,{"type":"table","name":"adventures","database":"sam","data":
+[
+{"id":"4","name":"A Primeira Aventura!","description":"Aventura introdutória à plataforma SAM e aos conceitos básicos da matemática.","story":"Sam precisa de um parceiro para enfrentar os desafios do Mundo dos Números e só você pode ajudá-lo!","created_at":"2016-08-06 06:03:43","updated_at":"2016-08-06 06:03:43","type":"0","id_creator":"3"},
+{"id":"5","name":"Mayara Fagundes Sena da Silva","description":"estimulação","story":"Vamos ser estimulados.","created_at":"2018-10-01 23:50:23","updated_at":"2018-10-01 23:50:23","type":"0","id_creator":"15"}
+]
+}
+,{"type":"table","name":"adventure_module","database":"sam","data":
+[
+{"id":"9","order":"1","created_at":null,"updated_at":null,"id_adventure":"4","id_module":"34"},
+{"id":"10","order":"2","created_at":null,"updated_at":null,"id_adventure":"4","id_module":"35"},
+{"id":"11","order":"3","created_at":null,"updated_at":null,"id_adventure":"4","id_module":"36"},
+{"id":"12","order":"1","created_at":null,"updated_at":null,"id_adventure":"5","id_module":"36"},
+{"id":"13","order":"2","created_at":null,"updated_at":null,"id_adventure":"5","id_module":"41"}
+]
+}
+,{"type":"table","name":"alternatives","database":"sam","data":
+[
+{"id":"25","text":"UM","right":"1","created_at":"2016-08-06 00:22:29","updated_at":"2016-08-06 00:22:29","id_exercise":"377"},
+{"id":"26","text":"QUATRO","right":"0","created_at":"2016-08-06 00:22:29","updated_at":"2016-08-06 00:22:29","id_exercise":"377"},
+{"id":"27","text":"DOIS","right":"0","created_at":"2016-08-06 00:22:29","updated_at":"2016-08-06 00:22:29","id_exercise":"377"},
+{"id":"28","text":"SETE","right":"0","created_at":"2016-08-06 00:22:29","updated_at":"2016-08-06 00:22:29","id_exercise":"377"},
+{"id":"29","text":"dois","right":"1","created_at":"2016-08-06 00:22:29","updated_at":"2016-08-06 00:22:29","id_exercise":"378"},
+{"id":"30","text":"2","right":"1","created_at":"2016-08-06 00:22:29","updated_at":"2016-08-06 00:22:29","id_exercise":"378"},
+{"id":"34","text":"1","right":"0","created_at":"2016-08-06 00:22:29","updated_at":"2016-08-06 00:22:29","id_exercise":"379"},
+{"id":"35","text":"2","right":"0","created_at":"2016-08-06 00:22:29","updated_at":"2016-08-06 00:22:29","id_exercise":"379"},
+{"id":"36","text":"3","right":"1","created_at":"2016-08-06 00:22:29","updated_at":"2016-08-06 00:22:29","id_exercise":"379"},
+{"id":"37","text":"um","right":"1","created_at":"2016-08-06 00:22:29","updated_at":"2016-08-06 00:22:29","id_exercise":"380"},
+{"id":"38","text":"1","right":"1","created_at":"2016-08-06 00:22:29","updated_at":"2016-08-06 00:22:29","id_exercise":"380"},
+{"id":"41","text":"2","right":"1","created_at":"2016-08-06 00:22:29","updated_at":"2016-08-06 00:22:29","id_exercise":"381"},
+{"id":"42","text":"4","right":"0","created_at":"2016-08-06 00:22:29","updated_at":"2016-08-06 00:22:29","id_exercise":"381"},
+{"id":"43","text":"6","right":"0","created_at":"2016-08-06 00:22:29","updated_at":"2016-08-06 00:22:29","id_exercise":"381"},
+{"id":"44","text":"8","right":"0","created_at":"2016-08-06 00:22:29","updated_at":"2016-08-06 00:22:29","id_exercise":"381"},
+{"id":"45","text":"ÊS","right":"1","created_at":"2016-08-06 00:22:29","updated_at":"2016-08-06 00:22:29","id_exercise":"382"},
+{"id":"46","text":"UM","right":"0","created_at":"2016-08-06 00:22:29","updated_at":"2016-08-06 00:22:29","id_exercise":"382"},
+{"id":"47","text":"AP","right":"0","created_at":"2016-08-06 00:22:29","updated_at":"2016-08-06 00:22:29","id_exercise":"382"},
+{"id":"48","text":"1","right":"1","created_at":"2016-08-06 00:22:29","updated_at":"2016-08-06 00:22:29","id_exercise":"383"},
+{"id":"49","text":"3","right":"0","created_at":"2016-08-06 00:22:29","updated_at":"2016-08-06 00:22:29","id_exercise":"383"},
+{"id":"50","text":"4","right":"0","created_at":"2016-08-06 00:22:29","updated_at":"2016-08-06 00:22:29","id_exercise":"383"},
+{"id":"51","text":"2","right":"1","created_at":"2016-08-06 00:22:29","updated_at":"2016-08-06 00:22:29","id_exercise":"384"},
+{"id":"52","text":"dois","right":"1","created_at":"2016-08-06 00:22:29","updated_at":"2016-08-06 00:22:29","id_exercise":"384"},
+{"id":"56","text":"3","right":"1","created_at":"2016-08-06 00:22:29","updated_at":"2016-08-06 00:22:29","id_exercise":"385"},
+{"id":"57","text":"4","right":"0","created_at":"2016-08-06 00:22:29","updated_at":"2016-08-06 00:22:29","id_exercise":"385"},
+{"id":"58","text":"2","right":"0","created_at":"2016-08-06 00:22:29","updated_at":"2016-08-06 00:22:29","id_exercise":"385"},
+{"id":"59","text":"quatro","right":"1","created_at":"2016-08-06 02:45:19","updated_at":"2016-08-06 02:45:19","id_exercise":"386"},
+{"id":"60","text":"4","right":"1","created_at":"2016-08-06 02:45:19","updated_at":"2016-08-06 02:45:19","id_exercise":"386"},
+{"id":"64","text":"CINCO","right":"1","created_at":"2016-08-06 02:45:19","updated_at":"2016-08-06 02:45:19","id_exercise":"387"},
+{"id":"65","text":"UM","right":"0","created_at":"2016-08-06 02:45:19","updated_at":"2016-08-06 02:45:19","id_exercise":"387"},
+{"id":"66","text":"SEIS","right":"0","created_at":"2016-08-06 02:45:19","updated_at":"2016-08-06 02:45:19","id_exercise":"387"},
+{"id":"67","text":"SEIS","right":"1","created_at":"2016-08-06 02:45:19","updated_at":"2016-08-06 02:45:19","id_exercise":"388"},
+{"id":"68","text":"OITO","right":"0","created_at":"2016-08-06 02:45:19","updated_at":"2016-08-06 02:45:19","id_exercise":"388"},
+{"id":"69","text":"CINCO","right":"0","created_at":"2016-08-06 02:45:19","updated_at":"2016-08-06 02:45:19","id_exercise":"388"},
+{"id":"70","text":"4","right":"1","created_at":"2016-08-06 02:45:19","updated_at":"2016-08-06 02:45:19","id_exercise":"389"},
+{"id":"71","text":"6","right":"0","created_at":"2016-08-06 02:45:19","updated_at":"2016-08-06 02:45:19","id_exercise":"389"},
+{"id":"72","text":"2","right":"0","created_at":"2016-08-06 02:45:19","updated_at":"2016-08-06 02:45:19","id_exercise":"389"},
+{"id":"73","text":"co","right":"1","created_at":"2016-08-06 02:45:19","updated_at":"2016-08-06 02:45:19","id_exercise":"390"},
+{"id":"75","text":"6","right":"1","created_at":"2016-08-06 02:45:19","updated_at":"2016-08-06 02:45:19","id_exercise":"391"},
+{"id":"76","text":"7","right":"0","created_at":"2016-08-06 02:45:19","updated_at":"2016-08-06 02:45:19","id_exercise":"391"},
+{"id":"77","text":"5","right":"0","created_at":"2016-08-06 02:45:19","updated_at":"2016-08-06 02:45:19","id_exercise":"391"},
+{"id":"78","text":"SEIS","right":"1","created_at":"2016-08-06 02:45:19","updated_at":"2016-08-06 02:45:19","id_exercise":"392"},
+{"id":"79","text":"TRÊS","right":"0","created_at":"2016-08-06 02:45:19","updated_at":"2016-08-06 02:45:19","id_exercise":"392"},
+{"id":"80","text":"CINCO","right":"0","created_at":"2016-08-06 02:45:19","updated_at":"2016-08-06 02:45:19","id_exercise":"392"},
+{"id":"81","text":"4","right":"1","created_at":"2016-08-06 02:45:19","updated_at":"2016-08-06 02:45:19","id_exercise":"393"},
+{"id":"82","text":"quatro","right":"1","created_at":"2016-08-06 02:45:19","updated_at":"2016-08-06 02:45:19","id_exercise":"393"},
+{"id":"86","text":"5","right":"1","created_at":"2016-08-06 02:45:19","updated_at":"2016-08-06 02:45:19","id_exercise":"394"},
+{"id":"87","text":"4","right":"0","created_at":"2016-08-06 02:45:19","updated_at":"2016-08-06 02:45:19","id_exercise":"394"},
+{"id":"88","text":"6","right":"0","created_at":"2016-08-06 02:45:19","updated_at":"2016-08-06 02:45:19","id_exercise":"394"},
+{"id":"89","text":"sete","right":"1","created_at":"2016-08-06 03:10:53","updated_at":"2016-08-06 03:10:53","id_exercise":"395"},
+{"id":"92","text":"7","right":"1","created_at":"2016-08-06 03:10:53","updated_at":"2016-08-06 03:10:53","id_exercise":"395"},
+{"id":"93","text":"8","right":"1","created_at":"2016-08-06 03:10:53","updated_at":"2016-08-06 03:10:53","id_exercise":"396"},
+{"id":"94","text":"7","right":"0","created_at":"2016-08-06 03:10:53","updated_at":"2016-08-06 03:10:53","id_exercise":"396"},
+{"id":"95","text":"9","right":"0","created_at":"2016-08-06 03:10:53","updated_at":"2016-08-06 03:10:53","id_exercise":"396"},
+{"id":"96","text":"9","right":"1","created_at":"2016-08-06 03:10:53","updated_at":"2016-08-06 03:10:53","id_exercise":"397"},
+{"id":"97","text":"nove","right":"1","created_at":"2016-08-06 03:10:53","updated_at":"2016-08-06 03:10:53","id_exercise":"397"},
+{"id":"100","text":"te","right":"1","created_at":"2016-08-06 03:10:53","updated_at":"2016-08-06 03:10:53","id_exercise":"398"},
+{"id":"104","text":"8","right":"1","created_at":"2016-08-06 03:10:53","updated_at":"2016-08-06 03:10:53","id_exercise":"399"},
+{"id":"105","text":"9","right":"0","created_at":"2016-08-06 03:10:53","updated_at":"2016-08-06 03:10:53","id_exercise":"399"},
+{"id":"106","text":"4","right":"0","created_at":"2016-08-06 03:10:53","updated_at":"2016-08-06 03:10:53","id_exercise":"399"},
+{"id":"107","text":"VE","right":"1","created_at":"2016-08-06 03:10:53","updated_at":"2016-08-06 03:10:53","id_exercise":"400"},
+{"id":"108","text":"TA","right":"0","created_at":"2016-08-06 03:10:53","updated_at":"2016-08-06 03:10:53","id_exercise":"400"},
+{"id":"109","text":"EL","right":"0","created_at":"2016-08-06 03:10:53","updated_at":"2016-08-06 03:10:53","id_exercise":"400"},
+{"id":"110","text":"SETE","right":"1","created_at":"2016-08-06 03:10:53","updated_at":"2016-08-06 03:10:53","id_exercise":"401"},
+{"id":"111","text":"NOVE","right":"0","created_at":"2016-08-06 03:10:53","updated_at":"2016-08-06 03:10:53","id_exercise":"401"},
+{"id":"112","text":"QUATRO","right":"0","created_at":"2016-08-06 03:10:53","updated_at":"2016-08-06 03:10:53","id_exercise":"401"},
+{"id":"113","text":"8","right":"1","created_at":"2016-08-06 03:10:53","updated_at":"2016-08-06 03:10:53","id_exercise":"402"},
+{"id":"114","text":"5","right":"0","created_at":"2016-08-06 03:10:53","updated_at":"2016-08-06 03:10:53","id_exercise":"402"},
+{"id":"115","text":"2","right":"0","created_at":"2016-08-06 03:10:53","updated_at":"2016-08-06 03:10:53","id_exercise":"402"},
+{"id":"116","text":"nove","right":"1","created_at":"2016-08-06 03:10:53","updated_at":"2016-08-06 03:10:53","id_exercise":"403"},
+{"id":"118","text":"9","right":"1","created_at":"2016-08-06 03:10:53","updated_at":"2016-08-06 03:10:53","id_exercise":"403"},
+{"id":"122","text":"1","right":"1","created_at":"2016-08-06 03:35:08","updated_at":"2016-08-06 03:35:08","id_exercise":"404"},
+{"id":"123","text":"um","right":"1","created_at":"2016-08-06 03:35:08","updated_at":"2016-08-06 03:35:08","id_exercise":"404"},
+{"id":"126","text":"3","right":"1","created_at":"2016-08-06 03:35:08","updated_at":"2016-08-06 03:35:08","id_exercise":"405"},
+{"id":"127","text":"1","right":"0","created_at":"2016-08-06 03:35:08","updated_at":"2016-08-06 03:35:08","id_exercise":"405"},
+{"id":"128","text":"9","right":"0","created_at":"2016-08-06 03:35:08","updated_at":"2016-08-06 03:35:08","id_exercise":"405"},
+{"id":"129","text":"QUATRO","right":"1","created_at":"2016-08-06 03:35:08","updated_at":"2016-08-06 03:35:08","id_exercise":"406"},
+{"id":"130","text":"DOIS","right":"0","created_at":"2016-08-06 03:35:08","updated_at":"2016-08-06 03:35:08","id_exercise":"406"},
+{"id":"131","text":"SETE","right":"0","created_at":"2016-08-06 03:35:08","updated_at":"2016-08-06 03:35:08","id_exercise":"406"},
+{"id":"132","text":"6","right":"1","created_at":"2016-08-06 03:35:08","updated_at":"2016-08-06 03:35:08","id_exercise":"407"},
+{"id":"133","text":"seis","right":"1","created_at":"2016-08-06 03:35:08","updated_at":"2016-08-06 03:35:08","id_exercise":"407"},
+{"id":"137","text":"SEIS","right":"1","created_at":"2016-08-06 03:35:08","updated_at":"2016-08-06 03:35:08","id_exercise":"408"},
+{"id":"138","text":"UM","right":"0","created_at":"2016-08-06 03:35:08","updated_at":"2016-08-06 03:35:08","id_exercise":"408"},
+{"id":"139","text":"OITO","right":"0","created_at":"2016-08-06 03:35:08","updated_at":"2016-08-06 03:35:08","id_exercise":"408"},
+{"id":"140","text":"8","right":"1","created_at":"2016-08-06 03:35:08","updated_at":"2016-08-06 03:35:08","id_exercise":"409"},
+{"id":"141","text":"7","right":"0","created_at":"2016-08-06 03:35:08","updated_at":"2016-08-06 03:35:08","id_exercise":"409"},
+{"id":"142","text":"4","right":"0","created_at":"2016-08-06 03:35:08","updated_at":"2016-08-06 03:35:08","id_exercise":"409"},
+{"id":"143","text":"UM, DOIS, TRÊS","right":"1","created_at":"2016-08-06 03:56:57","updated_at":"2016-08-06 03:56:57","id_exercise":"410"},
+{"id":"144","text":"UM","right":"0","created_at":"2016-08-06 03:56:57","updated_at":"2016-08-06 03:56:57","id_exercise":"410"},
+{"id":"145","text":"UM, DOIS, TRÊS, QUATRO","right":"0","created_at":"2016-08-06 03:56:57","updated_at":"2016-08-06 03:56:57","id_exercise":"410"},
+{"id":"146","text":"4","right":"1","created_at":"2016-08-06 03:56:57","updated_at":"2016-08-06 03:56:57","id_exercise":"411"},
+{"id":"147","text":"quatro","right":"1","created_at":"2016-08-06 03:56:57","updated_at":"2016-08-06 03:56:57","id_exercise":"411"},
+{"id":"150","text":"1, 2, 3, 4, 5, 6","right":"1","created_at":"2016-08-06 03:56:57","updated_at":"2016-08-06 03:56:57","id_exercise":"412"},
+{"id":"151","text":"1, 2, 3","right":"0","created_at":"2016-08-06 03:56:57","updated_at":"2016-08-06 03:56:57","id_exercise":"412"},
+{"id":"152","text":"1, 2, 3, 4","right":"0","created_at":"2016-08-06 03:56:57","updated_at":"2016-08-06 03:56:57","id_exercise":"412"},
+{"id":"153","text":"1 2 3 4 5 6 7 8","right":"1","created_at":"2016-08-06 03:56:57","updated_at":"2016-08-06 03:56:57","id_exercise":"413"},
+{"id":"154","text":"12345678","right":"1","created_at":"2016-08-06 03:56:57","updated_at":"2016-08-06 03:56:57","id_exercise":"413"},
+{"id":"155","text":"1, 2, 3, 4, 5, 6, 7, 8","right":"1","created_at":"2016-08-06 03:56:57","updated_at":"2016-08-06 03:56:57","id_exercise":"413"},
+{"id":"156","text":"1,2,3,4,5,6,7,8","right":"1","created_at":"2016-08-06 03:56:57","updated_at":"2016-08-06 03:56:57","id_exercise":"413"},
+{"id":"157","text":"8","right":"1","created_at":"2016-08-06 03:56:57","updated_at":"2016-08-06 03:56:57","id_exercise":"413"},
+{"id":"158","text":"oito","right":"1","created_at":"2016-08-06 03:56:57","updated_at":"2016-08-06 03:56:57","id_exercise":"413"},
+{"id":"161","text":"1, 2","right":"1","created_at":"2016-08-06 03:56:57","updated_at":"2016-08-06 03:56:57","id_exercise":"414"},
+{"id":"162","text":"1, 2, 3, 4","right":"0","created_at":"2016-08-06 03:56:57","updated_at":"2016-08-06 03:56:57","id_exercise":"414"},
+{"id":"163","text":"1","right":"0","created_at":"2016-08-06 03:56:57","updated_at":"2016-08-06 03:56:57","id_exercise":"414"},
+{"id":"164","text":"Amarela","right":"1","created_at":"2016-08-06 04:46:04","updated_at":"2016-08-06 04:46:04","id_exercise":"415"},
+{"id":"165","text":"Verde","right":"0","created_at":"2016-08-06 04:46:04","updated_at":"2016-08-06 04:46:04","id_exercise":"415"},
+{"id":"166","text":"Azul","right":"0","created_at":"2016-08-06 04:46:04","updated_at":"2016-08-06 04:46:04","id_exercise":"415"},
+{"id":"167","text":"4","right":"1","created_at":"2016-08-06 04:46:04","updated_at":"2016-08-06 04:46:04","id_exercise":"416"},
+{"id":"168","text":"1,2,3,4","right":"1","created_at":"2016-08-06 04:46:04","updated_at":"2016-08-06 04:46:04","id_exercise":"416"},
+{"id":"169","text":"1 2 3 4","right":"1","created_at":"2016-08-06 04:46:04","updated_at":"2016-08-06 04:46:04","id_exercise":"416"},
+{"id":"170","text":"1234","right":"1","created_at":"2016-08-06 04:46:04","updated_at":"2016-08-06 04:46:04","id_exercise":"416"},
+{"id":"171","text":"1, 2, 3, 4","right":"1","created_at":"2016-08-06 04:46:04","updated_at":"2016-08-06 04:46:04","id_exercise":"416"},
+{"id":"172","text":"quatro","right":"1","created_at":"2016-08-06 04:46:04","updated_at":"2016-08-06 04:46:04","id_exercise":"416"},
+{"id":"176","text":"Existem pratos suficientes","right":"1","created_at":"2016-08-06 04:46:04","updated_at":"2016-08-06 04:46:04","id_exercise":"417"},
+{"id":"177","text":"Não existem pratos suficientes","right":"0","created_at":"2016-08-06 04:46:04","updated_at":"2016-08-06 04:46:04","id_exercise":"417"},
+{"id":"178","text":"O Sam pode fazer a vitamina","right":"1","created_at":"2016-08-06 04:46:04","updated_at":"2016-08-06 04:46:04","id_exercise":"418"},
+{"id":"179","text":"O Sam não pode fazer a vitamina","right":"0","created_at":"2016-08-06 04:46:04","updated_at":"2016-08-06 04:46:04","id_exercise":"418"},
+{"id":"180","text":"8","right":"1","created_at":"2016-08-06 04:46:04","updated_at":"2016-08-06 04:46:04","id_exercise":"419"},
+{"id":"181","text":"oito","right":"1","created_at":"2016-08-06 04:46:04","updated_at":"2016-08-06 04:46:04","id_exercise":"419"},
+{"id":"184","text":"12345678","right":"1","created_at":"2016-08-06 04:46:04","updated_at":"2016-08-06 04:46:04","id_exercise":"419"},
+{"id":"185","text":"1,2,3,4,5,6,7,8","right":"1","created_at":"2016-08-06 04:46:04","updated_at":"2016-08-06 04:46:04","id_exercise":"419"},
+{"id":"186","text":"1 2 3 4 5 6 7 8","right":"1","created_at":"2016-08-06 04:46:04","updated_at":"2016-08-06 04:46:04","id_exercise":"419"},
+{"id":"187","text":"1, 2, 3, 4, 5, 6, 7, 8","right":"1","created_at":"2016-08-06 04:46:04","updated_at":"2016-08-06 04:46:04","id_exercise":"419"},
+{"id":"188","text":"+","right":"1","created_at":"2016-08-06 05:14:36","updated_at":"2016-08-06 05:14:36","id_exercise":"420"},
+{"id":"189","text":"mais","right":"1","created_at":"2016-08-06 05:14:36","updated_at":"2016-08-06 05:14:36","id_exercise":"420"},
+{"id":"193","text":"+","right":"1","created_at":"2016-08-06 05:14:36","updated_at":"2016-08-06 05:14:36","id_exercise":"421"},
+{"id":"194","text":"\/","right":"0","created_at":"2016-08-06 05:14:36","updated_at":"2016-08-06 05:14:36","id_exercise":"421"},
+{"id":"195","text":"-","right":"0","created_at":"2016-08-06 05:14:36","updated_at":"2016-08-06 05:14:36","id_exercise":"421"},
+{"id":"196","text":"+","right":"1","created_at":"2016-08-06 05:14:36","updated_at":"2016-08-06 05:14:36","id_exercise":"422"},
+{"id":"197","text":"mais","right":"1","created_at":"2016-08-06 05:14:36","updated_at":"2016-08-06 05:14:36","id_exercise":"422"},
+{"id":"199","text":"+","right":"1","created_at":"2016-08-06 05:14:36","updated_at":"2016-08-06 05:14:36","id_exercise":"423"},
+{"id":"200","text":"-","right":"0","created_at":"2016-08-06 05:14:36","updated_at":"2016-08-06 05:14:36","id_exercise":"423"},
+{"id":"201","text":"*","right":"0","created_at":"2016-08-06 05:14:36","updated_at":"2016-08-06 05:14:36","id_exercise":"423"},
+{"id":"202","text":"2 DEDOS","right":"1","created_at":"2016-08-06 05:14:36","updated_at":"2016-08-06 05:14:36","id_exercise":"424"},
+{"id":"203","text":"4 DEDOS","right":"0","created_at":"2016-08-06 05:14:36","updated_at":"2016-08-06 05:14:36","id_exercise":"424"},
+{"id":"204","text":"1 DEDO","right":"0","created_at":"2016-08-06 05:14:36","updated_at":"2016-08-06 05:14:36","id_exercise":"424"},
+{"id":"205","text":"2 BOLAS","right":"1","created_at":"2016-08-06 05:48:22","updated_at":"2016-08-06 05:48:22","id_exercise":"425"},
+{"id":"206","text":"3 BOLAS","right":"0","created_at":"2016-08-06 05:48:22","updated_at":"2016-08-06 05:48:22","id_exercise":"425"},
+{"id":"207","text":"4 BOLAS","right":"0","created_at":"2016-08-06 05:48:22","updated_at":"2016-08-06 05:48:22","id_exercise":"425"},
+{"id":"208","text":"8","right":"1","created_at":"2016-08-06 05:48:22","updated_at":"2016-08-06 05:48:22","id_exercise":"426"},
+{"id":"209","text":"2","right":"0","created_at":"2016-08-06 05:48:22","updated_at":"2016-08-06 05:48:22","id_exercise":"426"},
+{"id":"210","text":"5","right":"0","created_at":"2016-08-06 05:48:22","updated_at":"2016-08-06 05:48:22","id_exercise":"426"},
+{"id":"211","text":"6 CADERNOS","right":"1","created_at":"2016-08-06 05:48:22","updated_at":"2016-08-06 05:48:22","id_exercise":"427"},
+{"id":"212","text":"2 CADERNOS","right":"0","created_at":"2016-08-06 05:48:22","updated_at":"2016-08-06 05:48:22","id_exercise":"427"},
+{"id":"213","text":"9 CADERNOS","right":"0","created_at":"2016-08-06 05:48:22","updated_at":"2016-08-06 05:48:22","id_exercise":"427"},
+{"id":"214","text":"9 MOEDAS","right":"1","created_at":"2016-08-06 05:48:22","updated_at":"2016-08-06 05:48:22","id_exercise":"428"},
+{"id":"215","text":"7 MOEDAS","right":"0","created_at":"2016-08-06 05:48:22","updated_at":"2016-08-06 05:48:22","id_exercise":"428"},
+{"id":"216","text":"4 MOEDAS","right":"0","created_at":"2016-08-06 05:48:22","updated_at":"2016-08-06 05:48:22","id_exercise":"428"},
+{"id":"217","text":"5","right":"1","created_at":"2016-08-06 05:48:22","updated_at":"2016-08-06 05:48:22","id_exercise":"429"},
+{"id":"220","text":"cinco","right":"1","created_at":"2016-08-06 05:48:22","updated_at":"2016-08-06 05:48:22","id_exercise":"429"},
+{"id":"221","text":"cinco moedas","right":"1","created_at":"2016-08-06 05:48:22","updated_at":"2016-08-06 05:48:22","id_exercise":"429"},
+{"id":"224","text":"5 moedas","right":"1","created_at":"2016-08-06 05:48:22","updated_at":"2016-08-06 05:48:22","id_exercise":"429"},
+{"id":"225","text":"2","right":"1","created_at":"2016-08-06 06:00:15","updated_at":"2016-08-06 06:00:15","id_exercise":"430"},
+{"id":"226","text":"5","right":"1","created_at":"2016-08-06 06:00:15","updated_at":"2016-08-06 06:00:15","id_exercise":"430"},
+{"id":"227","text":"8","right":"0","created_at":"2016-08-06 06:00:15","updated_at":"2016-08-06 06:00:15","id_exercise":"430"},
+{"id":"228","text":"3","right":"1","created_at":"2016-08-06 06:00:15","updated_at":"2016-08-06 06:00:15","id_exercise":"431"},
+{"id":"230","text":"três","right":"1","created_at":"2016-08-06 06:00:15","updated_at":"2016-08-06 06:00:15","id_exercise":"431"},
+{"id":"235","text":"1","right":"1","created_at":"2016-08-06 06:00:15","updated_at":"2016-08-06 06:00:15","id_exercise":"432"},
+{"id":"236","text":"2","right":"0","created_at":"2016-08-06 06:00:15","updated_at":"2016-08-06 06:00:15","id_exercise":"432"},
+{"id":"237","text":"4","right":"0","created_at":"2016-08-06 06:00:15","updated_at":"2016-08-06 06:00:15","id_exercise":"432"},
+{"id":"238","text":"5","right":"1","created_at":"2016-08-06 06:00:15","updated_at":"2016-08-06 06:00:15","id_exercise":"433"},
+{"id":"239","text":"cinco","right":"1","created_at":"2016-08-06 06:00:15","updated_at":"2016-08-06 06:00:15","id_exercise":"433"},
+{"id":"247","text":"CINCO","right":"1","created_at":"2016-08-06 06:00:15","updated_at":"2016-08-06 06:00:15","id_exercise":"434"},
+{"id":"248","text":"OITO","right":"0","created_at":"2016-08-06 06:00:15","updated_at":"2016-08-06 06:00:15","id_exercise":"434"},
+{"id":"249","text":"QUATRO","right":"0","created_at":"2016-08-06 06:00:15","updated_at":"2016-08-06 06:00:15","id_exercise":"434"},
+{"id":"250","text":"oito","right":"1","created_at":"2016-08-06 06:00:15","updated_at":"2016-08-06 06:00:15","id_exercise":"435"},
+{"id":"253","text":"8","right":"1","created_at":"2016-08-06 06:00:15","updated_at":"2016-08-06 06:00:15","id_exercise":"435"},
+{"id":"254","text":"NOVE","right":"1","created_at":"2016-08-06 06:00:15","updated_at":"2016-08-06 06:00:15","id_exercise":"436"},
+{"id":"255","text":"DOIS","right":"0","created_at":"2016-08-06 06:00:15","updated_at":"2016-08-06 06:00:15","id_exercise":"436"},
+{"id":"256","text":"CINCO","right":"0","created_at":"2016-08-06 06:00:15","updated_at":"2016-08-06 06:00:15","id_exercise":"436"},
+{"id":"257","text":"9","right":"1","created_at":"2016-08-06 06:00:15","updated_at":"2016-08-06 06:00:15","id_exercise":"437"},
+{"id":"258","text":"8","right":"0","created_at":"2016-08-06 06:00:15","updated_at":"2016-08-06 06:00:15","id_exercise":"437"},
+{"id":"259","text":"6","right":"0","created_at":"2016-08-06 06:00:15","updated_at":"2016-08-06 06:00:15","id_exercise":"437"}
+]
+}
+,{"type":"table","name":"contacts","database":"sam","data":
+[
+{"id":"1","message":"Olá cara você está online?","created_at":"2016-09-28 19:07:59","updated_at":"2016-09-28 19:07:59","id_user":"26"},
+{"id":"2","message":"ergtertert","created_at":"2016-09-28 19:10:24","updated_at":"2016-09-28 19:10:24","id_user":"26"},
+{"id":"3","message":"Olá.","created_at":"2016-09-28 19:16:39","updated_at":"2016-09-28 19:16:39","id_user":"20"},
+{"id":"4","message":"Olá.","created_at":"2016-09-28 19:36:33","updated_at":"2016-09-28 19:36:33","id_user":"20"},
+{"id":"5","message":"Olá.","created_at":"2016-09-28 19:37:28","updated_at":"2016-09-28 19:37:28","id_user":"20"},
+{"id":"6","message":"Eita.","created_at":"2016-09-28 20:39:34","updated_at":"2016-09-28 20:39:34","id_user":"20"}
+]
+}
+,{"type":"table","name":"exercises","database":"sam","data":
+[
+{"id":"377","stem":"Que número é esse?","type":"1","created_at":"2016-08-06 00:22:29","updated_at":"2016-08-06 00:22:29","id_activity":"109","image1":"1Numero.png","image1_alt":"um"},
+{"id":"378","stem":"Escreva que número você está vendo","type":"2","created_at":"2016-08-06 00:22:29","updated_at":"2016-08-06 00:22:29","id_activity":"109","image1":"2Numero.png","image1_alt":"dois"},
+{"id":"379","stem":"Que número é esse?","type":"1","created_at":"2016-08-06 00:22:29","updated_at":"2016-08-06 00:22:29","id_activity":"109","image1":"3Numero.png","image1_alt":"três"},
+{"id":"380","stem":"Escreva esse número","type":"2","created_at":"2016-08-06 00:22:29","updated_at":"2016-08-06 00:22:29","id_activity":"109","image1":"1Palavra.png","image1_alt":"um"},
+{"id":"381","stem":"Que número é esse?","type":"1","created_at":"2016-08-06 00:22:29","updated_at":"2016-08-06 00:22:29","id_activity":"109","image1":"2Palavra.png","image1_alt":"dois"},
+{"id":"382","stem":"Complete o número","type":"1","created_at":"2016-08-06 00:22:29","updated_at":"2016-08-06 00:22:29","id_activity":"109","image1":"3Palavra.png","image1_alt":"três"},
+{"id":"383","stem":"Quantas maçãs você está vendo?","type":"1","created_at":"2016-08-06 00:22:29","updated_at":"2016-08-06 00:22:29","id_activity":"109","image1":"1Objeto.png","image1_alt":"uma maçã"},
+{"id":"384","stem":"Escreva quantas árvores você está vendo","type":"2","created_at":"2016-08-06 00:22:29","updated_at":"2016-08-06 00:22:29","id_activity":"109","image1":"2Objeto.png","image1_alt":"duas árvores"},
+{"id":"385","stem":"Quantos picolés você está vendo?","type":"1","created_at":"2016-08-06 00:22:29","updated_at":"2016-08-06 00:22:29","id_activity":"109","image1":"3Objeto.png","image1_alt":"três picolés"},
+{"id":"386","stem":"Que número é esse?","type":"2","created_at":"2016-08-06 02:45:19","updated_at":"2016-08-06 02:45:20","id_activity":"110","image1":"386.png","image1_alt":"quatro"},
+{"id":"387","stem":"Que número é esse?","type":"1","created_at":"2016-08-06 02:45:19","updated_at":"2016-08-06 02:45:20","id_activity":"110","image1":"387.png","image1_alt":"cinco"},
+{"id":"388","stem":"Que número é esse?","type":"1","created_at":"2016-08-06 02:45:19","updated_at":"2016-08-06 02:45:23","id_activity":"110","image1":"388.png","image1_alt":"seis"},
+{"id":"389","stem":"Qual é esse número?","type":"1","created_at":"2016-08-06 02:45:19","updated_at":"2016-08-06 02:45:21","id_activity":"110","image1":"389.png","image1_alt":"quatro"},
+{"id":"390","stem":"Complete o número 5","type":"2","created_at":"2016-08-06 02:45:19","updated_at":"2016-08-06 02:45:21","id_activity":"110","image1":"390.png","image1_alt":"cinco"},
+{"id":"391","stem":"Que número é esse?","type":"1","created_at":"2016-08-06 02:45:19","updated_at":"2016-08-06 02:45:24","id_activity":"110","image1":"391.png","image1_alt":"seis"},
+{"id":"392","stem":"Quantas flores você está vendo?","type":"1","created_at":"2016-08-06 02:45:19","updated_at":"2016-08-06 02:45:24","id_activity":"110","image1":"392.png","image1_alt":"seis flores"},
+{"id":"393","stem":"Quantos bonés você está vendo?","type":"2","created_at":"2016-08-06 02:45:19","updated_at":"2016-08-06 02:45:24","id_activity":"110","image1":"393.png","image1_alt":"quatro bonés"},
+{"id":"394","stem":"Quantos presentes você está vendo","type":"1","created_at":"2016-08-06 02:45:19","updated_at":"2016-08-06 02:45:23","id_activity":"110","image1":"394.png","image1_alt":"cinco presentes"},
+{"id":"395","stem":"Escreva que número você está vendo","type":"2","created_at":"2016-08-06 03:10:53","updated_at":"2016-08-06 03:10:54","id_activity":"111","image1":"395.png","image1_alt":"sete"},
+{"id":"396","stem":"Que número é esse?","type":"1","created_at":"2016-08-06 03:10:53","updated_at":"2016-08-06 03:10:55","id_activity":"111","image1":"396.png","image1_alt":"oito"},
+{"id":"397","stem":"Escreva que número você está vendo","type":"2","created_at":"2016-08-06 03:10:53","updated_at":"2016-08-06 03:10:59","id_activity":"111","image1":"397.png","image1_alt":"nove"},
+{"id":"398","stem":"Complete o número 7.","type":"2","created_at":"2016-08-06 03:10:53","updated_at":"2016-08-06 03:10:55","id_activity":"111","image1":"398.png","image1_alt":"sete"},
+{"id":"399","stem":"Que número é esse?","type":"1","created_at":"2016-08-06 03:10:53","updated_at":"2016-08-06 03:10:57","id_activity":"111","image1":"399.png","image1_alt":"oito"},
+{"id":"400","stem":"Complete o número 9.","type":"1","created_at":"2016-08-06 03:10:53","updated_at":"2016-08-06 03:10:56","id_activity":"111","image1":"400.png","image1_alt":"nove"},
+{"id":"401","stem":"Quantas borboletas você está vendo?","type":"1","created_at":"2016-08-06 03:10:53","updated_at":"2016-08-06 03:10:58","id_activity":"111","image1":"401.png","image1_alt":"sete borboletas"},
+{"id":"402","stem":"Quantas bolas você está vendo?","type":"1","created_at":"2016-08-06 03:10:53","updated_at":"2016-08-06 03:10:59","id_activity":"111","image1":"402.png","image1_alt":"oito bolas"},
+{"id":"403","stem":"Quantos carros você está vendo?","type":"2","created_at":"2016-08-06 03:10:53","updated_at":"2016-08-06 03:10:59","id_activity":"111","image1":"403.png","image1_alt":"nove carros"},
+{"id":"404","stem":"Qual o número que está faltando?","type":"2","created_at":"2016-08-06 03:35:08","updated_at":"2016-08-06 03:35:09","id_activity":"112","image1":"404.png","image1_alt":"1. 2, 3, 4, 5, 6, 7, 8, 9"},
+{"id":"405","stem":"Qual o número depois desse?","type":"1","created_at":"2016-08-06 03:35:08","updated_at":"2016-08-06 03:35:11","id_activity":"112","image1":"405.png","image1_alt":"2, 3."},
+{"id":"406","stem":"Qual o número que está faltando?","type":"1","created_at":"2016-08-06 03:35:08","updated_at":"2016-08-06 03:35:11","id_activity":"112","image1":"406.png","image1_alt":"1, 2, 3. 4. 5, 6, 7, 8, 9."},
+{"id":"407","stem":"Qual o próximo número?","type":"2","created_at":"2016-08-06 03:35:08","updated_at":"2016-08-06 03:35:10","id_activity":"112","image1":"407.png","image1_alt":"5, 6."},
+{"id":"408","stem":"Qual o número que está faltando?","type":"1","created_at":"2016-08-06 03:35:08","updated_at":"2016-08-06 03:35:12","id_activity":"112","image1":"408.png","image1_alt":"1, 2, 3, 4, 5. 6. 7, 8, 9."},
+{"id":"409","stem":"Qual o número que está faltando?","type":"1","created_at":"2016-08-06 03:35:08","updated_at":"2016-08-06 03:35:12","id_activity":"112","image1":"409.png","image1_alt":"1, 2, 3, 4, 5, 6, 7. 8. 9."},
+{"id":"410","stem":"Qual a contagem certa desses picolés?","type":"1","created_at":"2016-08-06 03:56:57","updated_at":"2016-08-06 03:57:00","id_activity":"113","image1":"410.png","image1_alt":"1, 2, 3 picolés."},
+{"id":"411","stem":"Conte quantos bonés você vê","type":"2","created_at":"2016-08-06 03:56:57","updated_at":"2016-08-06 03:57:00","id_activity":"113","image1":"411.png","image1_alt":"1, 2, 3, 4 bonés."},
+{"id":"412","stem":"Qual a contagem certa dessas flores?","type":"1","created_at":"2016-08-06 03:56:57","updated_at":"2016-08-06 03:57:01","id_activity":"113","image1":"412.png","image1_alt":"1, 2, 3, 4, 5, 6 flores."},
+{"id":"413","stem":"Conte quantas bolas você vê","type":"2","created_at":"2016-08-06 03:56:57","updated_at":"2016-08-06 03:57:03","id_activity":"113","image1":"413.png","image1_alt":"1, 2, 3, 4, 5, 6, 7, 8 bolas."},
+{"id":"414","stem":"Qual a contagem certa dessas árvores?","type":"1","created_at":"2016-08-06 03:56:57","updated_at":"2016-08-06 03:57:02","id_activity":"113","image1":"414.png","image1_alt":"uma árvore, duas árvores."},
+{"id":"415","stem":"Sam precisa sentar na terceira cadeira. Qual a cor da cadeira que o Sam precisa sentar?","type":"1","created_at":"2016-08-06 04:46:04","updated_at":"2016-08-06 04:46:10","id_activity":"114","image1":"415.png","image1_alt":"uma cadeira, duas cadeiras, três cadeiras."},
+{"id":"416","stem":"Conte quantas janelas estão abertas","type":"2","created_at":"2016-08-06 04:46:04","updated_at":"2016-08-06 04:46:11","id_activity":"114","image1":"416.png","image1_alt":"uma, duas, três, quatro janelas abertas."},
+{"id":"417","stem":"É hora do lanche! Conte a quantidade de pratos para ver se existem pratos suficientes para você e o Sam comerem","type":"1","created_at":"2016-08-06 04:46:04","updated_at":"2016-08-06 04:46:11","id_activity":"114","image1":"417.png","image1_alt":"1, 2, 3 pratos."},
+{"id":"418","stem":"O Sam precisa de 6 bananas para fazer uma vitamina. Conte as bananas para saber se Sam pode fazer a vitamina","type":"1","created_at":"2016-08-06 04:46:04","updated_at":"2016-08-06 04:46:13","id_activity":"114","image1":"418.png","image1_alt":"uma, duas, três, quatro, cinco, seis bananas."},
+{"id":"419","stem":"Sam te deu varias moedas. Conte quantas moedas você ganhou","type":"2","created_at":"2016-08-06 04:46:04","updated_at":"2016-08-06 04:46:14","id_activity":"114","image1":"419.png","image1_alt":"1, 2, 3, 4, 5, 6, 7, 8 moedas."},
+{"id":"420","stem":"Digite o símbolo +","type":"2","created_at":"2016-08-06 05:14:36","updated_at":"2016-08-06 05:14:38","id_activity":"115","image1":"420.png","image1_alt":"mais."},
+{"id":"421","stem":"Qual desses é o símbolo de mais?","type":"1","created_at":"2016-08-06 05:14:36","updated_at":"2016-08-06 05:14:41","id_activity":"115","image1":"421.png","image1_alt":"mais."},
+{"id":"422","stem":"Complete com o símbolo de mais","type":"2","created_at":"2016-08-06 05:14:36","updated_at":"2016-08-06 05:14:41","id_activity":"115","image1":"422.png","image1_alt":"um mais um igual a dois."},
+{"id":"423","stem":"Complete com o símbolo de mais","type":"1","created_at":"2016-08-06 05:14:36","updated_at":"2016-08-06 05:14:42","id_activity":"115","image1":"423.png","image1_alt":"um lápis mais um lápis igual a dois lápis."},
+{"id":"424","stem":"1 dedo + 1 dedo é igual a?","type":"1","created_at":"2016-08-06 05:14:36","updated_at":"2016-08-06 05:14:41","id_activity":"115","image1":"424.png","image1_alt":"um dedo mais um dedo igual a dois dedos."},
+{"id":"425","stem":"Uma bola mais uma bola é igual a?","type":"1","created_at":"2016-08-06 05:48:22","updated_at":"2016-08-06 05:48:22","id_activity":"116","image1":"425.png","image1_alt":"uma bola mais uma bola igual a duas bolas."},
+{"id":"426","stem":"6 borboletas + 2 borboletas = ?","type":"1","created_at":"2016-08-06 05:48:22","updated_at":"2016-08-06 05:48:27","id_activity":"116","image1":"426.png","image1_alt":"seis borboletas mais duas borboletas igual a oito borboletas."},
+{"id":"427","stem":"3 cadernos + 3 cadernos = ?","type":"1","created_at":"2016-08-06 05:48:22","updated_at":"2016-08-06 05:48:22","id_activity":"116","image1":"427.png","image1_alt":"três cadernos mais três cadernos igual a seis cadernos."},
+{"id":"428","stem":"4 moedas + 5 moedas = ?","type":"1","created_at":"2016-08-06 05:48:22","updated_at":"2016-08-06 05:48:27","id_activity":"116","image1":"428.png","image1_alt":"quatro moedas mais cinco moedas igual a nove moedas."},
+{"id":"429","stem":"Você tem quatro moedas e ganhou mais uma moeda, quantas moedas você tem agora?","type":"2","created_at":"2016-08-06 05:48:22","updated_at":"2016-08-06 05:48:27","id_activity":"116","image1":"429.png","image1_alt":"quatro moedas mais uma moeda igual a cinco moedas."},
+{"id":"430","stem":"1 + 1 = ?","type":"1","created_at":"2016-08-06 06:00:15","updated_at":"2016-08-06 06:00:16","id_activity":"117","image1":"430.png","image1_alt":"um mais um igual a dois."},
+{"id":"431","stem":"1 + 2 = ?","type":"2","created_at":"2016-08-06 06:00:15","updated_at":"2016-08-06 06:00:16","id_activity":"117","image1":"431.png","image1_alt":"um mais dois igual a três."},
+{"id":"432","stem":"Quanto é 1 + 3?","type":"1","created_at":"2016-08-06 06:00:15","updated_at":"2016-08-06 06:00:16","id_activity":"117","image1":"432.png","image1_alt":"um mais três igual a quatro."},
+{"id":"433","stem":"Quanto é 1 + 4?","type":"2","created_at":"2016-08-06 06:00:15","updated_at":"2016-08-06 06:00:16","id_activity":"117","image1":"433.png","image1_alt":"um mais quatro igual a cinco."},
+{"id":"434","stem":"Quanto é 3 + 2?","type":"1","created_at":"2016-08-06 06:00:15","updated_at":"2016-08-06 06:00:17","id_activity":"117","image1":"434.png","image1_alt":"três mais dois igual a cinco."},
+{"id":"435","stem":"5 + 3 = ?","type":"2","created_at":"2016-08-06 06:00:15","updated_at":"2016-08-06 06:00:17","id_activity":"117","image1":"435.png","image1_alt":"cinco mais três igual a oito."},
+{"id":"436","stem":"2 + 7 = ?","type":"1","created_at":"2016-08-06 06:00:15","updated_at":"2016-08-06 06:00:18","id_activity":"117","image1":"436.png","image1_alt":"dois mais sete igual a nove."},
+{"id":"437","stem":"8 + 1 = ?","type":"1","created_at":"2016-08-06 06:00:15","updated_at":"2016-08-06 06:00:17","id_activity":"117","image1":"437.png","image1_alt":"oito mais um igual a nove."}
+]
+}
+,{"type":"table","name":"migrations","database":"sam","data":
+[
+
+]
+}
+,{"type":"table","name":"modules","database":"sam","data":
+[
+{"id":"34","name":"Os numerais","description":"Atividades que exercitam o conhecimento dos numerais de 1 a 9.","rating":"0","votes":"0","created_at":"2016-08-06 03:11:57","updated_at":"2016-08-06 03:11:57","id_topic":"1","type":"0","id_creator":"3"},
+{"id":"35","name":"Contando","description":"Atividades que exercitam a contagem.","rating":"0","votes":"0","created_at":"2016-08-06 04:46:52","updated_at":"2016-08-06 04:46:52","id_topic":"6","type":"0","id_creator":"3"},
+{"id":"36","name":"Somando","description":"Atividades que exercitam o conceito de soma.","rating":"0","votes":"0","created_at":"2016-08-06 06:00:34","updated_at":"2016-08-06 06:00:34","id_topic":"2","type":"0","id_creator":"3"},
+{"id":"41","name":"contagem de objetos","description":"adiçao","rating":"0","votes":"0","created_at":"2016-10-07 17:12:19","updated_at":"2016-10-07 17:12:19","id_topic":"2","type":"0","id_creator":"10"}
+]
+}
+,{"type":"table","name":"module_activity","database":"sam","data":
+[
+{"id":"33","order":"1","created_at":null,"updated_at":null,"id_module":"34","id_activity":"109"},
+{"id":"34","order":"2","created_at":null,"updated_at":null,"id_module":"34","id_activity":"110"},
+{"id":"35","order":"3","created_at":null,"updated_at":null,"id_module":"34","id_activity":"111"},
+{"id":"36","order":"1","created_at":null,"updated_at":null,"id_module":"35","id_activity":"112"},
+{"id":"37","order":"2","created_at":null,"updated_at":null,"id_module":"35","id_activity":"113"},
+{"id":"38","order":"3","created_at":null,"updated_at":null,"id_module":"35","id_activity":"114"},
+{"id":"39","order":"1","created_at":null,"updated_at":null,"id_module":"36","id_activity":"115"},
+{"id":"40","order":"2","created_at":null,"updated_at":null,"id_module":"36","id_activity":"116"},
+{"id":"41","order":"3","created_at":null,"updated_at":null,"id_module":"36","id_activity":"117"},
+{"id":"54","order":"1","created_at":null,"updated_at":null,"id_module":"41","id_activity":"116"},
+{"id":"55","order":"2","created_at":null,"updated_at":null,"id_module":"41","id_activity":"117"},
+{"id":"56","order":"3","created_at":null,"updated_at":null,"id_module":"41","id_activity":"115"}
+]
+}
+,{"type":"table","name":"monsters","database":"sam","data":
+[
+{"id":"1","name":"Mordedor","icon":"monster1.png"},
+{"id":"2","name":"Fantasminha","icon":"monster2.png"},
+{"id":"3","name":"Ossudo","icon":"monster3.png"},
+{"id":"4","name":"Preguiça","icon":"monster4.png"},
+{"id":"5","name":"Pega-Pega","icon":"monster5.png"},
+{"id":"6","name":"Olhão","icon":"monster6.png"},
+{"id":"7","name":"Cumprido","icon":"monster7.png"}
+]
+}
+,{"type":"table","name":"password_resets","database":"sam","data":
+[
+
+]
+}
+,{"type":"table","name":"students","database":"sam","data":
+[
+
+]
+}
+,{"type":"table","name":"student_activity_done","database":"sam","data":
+[
+
+]
+}
+,{"type":"table","name":"student_adventure_done","database":"sam","data":
+[
+
+]
+}
+,{"type":"table","name":"student_module_done","database":"sam","data":
+[
+
+]
+}
+,{"type":"table","name":"teachers","database":"sam","data":
+[
+
+]
+}
+,{"type":"table","name":"teacher_adventure_library","database":"sam","data":
+[
+
+]
+}
+,{"type":"table","name":"topics","database":"sam","data":
+[
+{"id":"1","name":"Os Números","created_at":"2016-07-21 22:26:13","updated_at":"2016-07-21 22:26:13"},
+{"id":"2","name":"Adição","created_at":"2016-07-22 18:14:47","updated_at":"2016-07-22 18:14:47"},
+{"id":"3","name":"Tempo","created_at":"2016-07-28 04:12:09","updated_at":"2016-07-28 04:12:09"},
+{"id":"4","name":"Moedas","created_at":"2016-07-28 04:12:17","updated_at":"2016-07-28 04:12:17"},
+{"id":"5","name":"Operações Pré-aritméticas","created_at":"2016-07-28 04:13:19","updated_at":"2016-07-28 04:13:19"},
+{"id":"6","name":"Contagem","created_at":"2016-07-28 04:15:19","updated_at":"2016-07-28 04:15:19"},
+{"id":"7","name":"Subtração","created_at":"2016-07-28 04:15:28","updated_at":"2016-07-28 04:15:28"},
+{"id":"8","name":"Multiplicação","created_at":"2016-07-28 04:15:35","updated_at":"2016-07-28 04:15:35"},
+{"id":"9","name":"Divisão","created_at":"2016-07-28 04:15:42","updated_at":"2016-07-28 04:15:42"}
+]
+}
+,{"type":"table","name":"users","database":"sam","data":
+[
+
+]
+}
+,{"type":"table","name":"user_achievement","database":"sam","data":
+[
+
+]
+}
+]
