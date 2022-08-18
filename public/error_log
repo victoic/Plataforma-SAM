@@ -1,0 +1,284 @@
+[20-Jan-2021 01:19:26 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ixed.7.0.lin' (tried: /opt/php70/lib/php/extensions/no-debug-non-zts-20151012/ixed.7.0.lin (/opt/php70/lib/php/extensions/no-debug-non-zts-20151012/ixed.7.0.lin: undefined symbol: _zval_ptr_dtor), /opt/php70/lib/php/extensions/no-debug-non-zts-20151012/ixed.7.0.lin.so (/opt/php70/lib/php/extensions/no-debug-non-zts-20151012/ixed.7.0.lin.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[19-Jan-2021 22:19:26 America/Fortaleza] PHP Deprecated:  Directive 'allow_url_include' is deprecated in Unknown on line 0
+[19-Jan-2021 22:19:26 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/Mbstring.php:351
+Stack trace:
+#0 /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/bootstrap.php(32): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Support/Str.php(72): mb_strpos(NULL, '/json')
+#2 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(696): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(664): Illuminate\Http\Request->isJson()
+#4 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(847): Illuminate\Http\Request->getInputSource()
+#5 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(57): Illuminate\Http\Request::createFromBase(Object(I in /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/Mbstring.php on line 351
+[20-Jan-2021 01:19:26 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ixed.7.0.lin' (tried: /opt/php70/lib/php/extensions/no-debug-non-zts-20151012/ixed.7.0.lin (/opt/php70/lib/php/extensions/no-debug-non-zts-20151012/ixed.7.0.lin: undefined symbol: _zval_ptr_dtor), /opt/php70/lib/php/extensions/no-debug-non-zts-20151012/ixed.7.0.lin.so (/opt/php70/lib/php/extensions/no-debug-non-zts-20151012/ixed.7.0.lin.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[19-Jan-2021 22:19:26 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/Mbstring.php:351
+Stack trace:
+#0 /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/bootstrap.php(32): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Support/Str.php(72): mb_strpos(NULL, '/json')
+#2 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(696): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(664): Illuminate\Http\Request->isJson()
+#4 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(847): Illuminate\Http\Request->getInputSource()
+#5 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(57): Illuminate\Http\Request::createFromBase(Object(I in /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/Mbstring.php on line 351
+[20-Jan-2021 01:19:27 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[19-Jan-2021 22:19:27 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/Mbstring.php:351
+Stack trace:
+#0 /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/bootstrap.php(32): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Support/Str.php(72): mb_strpos(NULL, '/json')
+#2 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(696): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(664): Illuminate\Http\Request->isJson()
+#4 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(847): Illuminate\Http\Request->getInputSource()
+#5 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(57): Illuminate\Http\Request::createFromBase(Object(I in /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/Mbstring.php on line 351
+[20-Jan-2021 01:19:27 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[19-Jan-2021 22:19:27 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/Mbstring.php:351
+Stack trace:
+#0 /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/bootstrap.php(32): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Support/Str.php(72): mb_strpos(NULL, '/json')
+#2 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(696): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(664): Illuminate\Http\Request->isJson()
+#4 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(847): Illuminate\Http\Request->getInputSource()
+#5 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(57): Illuminate\Http\Request::createFromBase(Object(I in /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/Mbstring.php on line 351
+[19-Jan-2021 22:19:28 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/Mbstring.php:351
+Stack trace:
+#0 /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/bootstrap.php(32): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Support/Str.php(72): mb_strpos(NULL, '/json')
+#2 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(696): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(664): Illuminate\Http\Request->isJson()
+#4 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(847): Illuminate\Http\Request->getInputSource()
+#5 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(57): Illuminate\Http\Request::createFromBase(Object(I in /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/Mbstring.php on line 351
+[20-Jan-2021 01:19:28 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ixed.7.0.lin' (tried: /opt/php70/lib/php/extensions/no-debug-non-zts-20151012/ixed.7.0.lin (/opt/php70/lib/php/extensions/no-debug-non-zts-20151012/ixed.7.0.lin: undefined symbol: _zval_ptr_dtor), /opt/php70/lib/php/extensions/no-debug-non-zts-20151012/ixed.7.0.lin.so (/opt/php70/lib/php/extensions/no-debug-non-zts-20151012/ixed.7.0.lin.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[19-Jan-2021 22:19:28 America/Fortaleza] PHP Deprecated:  Directive 'allow_url_include' is deprecated in Unknown on line 0
+[19-Jan-2021 22:19:28 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/Mbstring.php:351
+Stack trace:
+#0 /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/bootstrap.php(32): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Support/Str.php(72): mb_strpos(NULL, '/json')
+#2 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(696): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(664): Illuminate\Http\Request->isJson()
+#4 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(847): Illuminate\Http\Request->getInputSource()
+#5 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(57): Illuminate\Http\Request::createFromBase(Object(I in /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/Mbstring.php on line 351
+[20-Jan-2021 01:19:29 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ixed.7.0.lin' (tried: /opt/php70/lib/php/extensions/no-debug-non-zts-20151012/ixed.7.0.lin (/opt/php70/lib/php/extensions/no-debug-non-zts-20151012/ixed.7.0.lin: undefined symbol: _zval_ptr_dtor), /opt/php70/lib/php/extensions/no-debug-non-zts-20151012/ixed.7.0.lin.so (/opt/php70/lib/php/extensions/no-debug-non-zts-20151012/ixed.7.0.lin.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[19-Jan-2021 22:19:29 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/Mbstring.php:351
+Stack trace:
+#0 /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/bootstrap.php(32): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Support/Str.php(72): mb_strpos(NULL, '/json')
+#2 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(696): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(664): Illuminate\Http\Request->isJson()
+#4 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(847): Illuminate\Http\Request->getInputSource()
+#5 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(57): Illuminate\Http\Request::createFromBase(Object(I in /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/Mbstring.php on line 351
+[20-Jan-2021 01:19:30 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[19-Jan-2021 22:19:30 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/Mbstring.php:351
+Stack trace:
+#0 /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/bootstrap.php(32): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Support/Str.php(72): mb_strpos(NULL, '/json')
+#2 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(696): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(664): Illuminate\Http\Request->isJson()
+#4 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(847): Illuminate\Http\Request->getInputSource()
+#5 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(57): Illuminate\Http\Request::createFromBase(Object(I in /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/Mbstring.php on line 351
+[20-Jan-2021 01:19:30 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[19-Jan-2021 22:19:30 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/Mbstring.php:351
+Stack trace:
+#0 /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/bootstrap.php(32): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Support/Str.php(72): mb_strpos(NULL, '/json')
+#2 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(696): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(664): Illuminate\Http\Request->isJson()
+#4 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(847): Illuminate\Http\Request->getInputSource()
+#5 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(57): Illuminate\Http\Request::createFromBase(Object(I in /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/Mbstring.php on line 351
+[19-Jan-2021 22:19:31 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/Mbstring.php:351
+Stack trace:
+#0 /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/bootstrap.php(32): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Support/Str.php(72): mb_strpos(NULL, '/json')
+#2 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(696): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(664): Illuminate\Http\Request->isJson()
+#4 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(847): Illuminate\Http\Request->getInputSource()
+#5 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(57): Illuminate\Http\Request::createFromBase(Object(I in /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/Mbstring.php on line 351
+[20-Jan-2021 01:27:43 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ixed.7.0.lin' (tried: /opt/php70/lib/php/extensions/no-debug-non-zts-20151012/ixed.7.0.lin (/opt/php70/lib/php/extensions/no-debug-non-zts-20151012/ixed.7.0.lin: undefined symbol: _zval_ptr_dtor), /opt/php70/lib/php/extensions/no-debug-non-zts-20151012/ixed.7.0.lin.so (/opt/php70/lib/php/extensions/no-debug-non-zts-20151012/ixed.7.0.lin.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[19-Jan-2021 22:27:43 America/Fortaleza] PHP Deprecated:  Directive 'allow_url_include' is deprecated in Unknown on line 0
+[19-Jan-2021 22:27:43 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/Mbstring.php:351
+Stack trace:
+#0 /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/bootstrap.php(32): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Support/Str.php(72): mb_strpos(NULL, '/json')
+#2 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(696): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(664): Illuminate\Http\Request->isJson()
+#4 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(847): Illuminate\Http\Request->getInputSource()
+#5 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(57): Illuminate\Http\Request::createFromBase(Object(I in /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/Mbstring.php on line 351
+[20-Jan-2021 01:27:44 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ixed.7.0.lin' (tried: /opt/php70/lib/php/extensions/no-debug-non-zts-20151012/ixed.7.0.lin (/opt/php70/lib/php/extensions/no-debug-non-zts-20151012/ixed.7.0.lin: undefined symbol: _zval_ptr_dtor), /opt/php70/lib/php/extensions/no-debug-non-zts-20151012/ixed.7.0.lin.so (/opt/php70/lib/php/extensions/no-debug-non-zts-20151012/ixed.7.0.lin.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[19-Jan-2021 22:27:44 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/Mbstring.php:351
+Stack trace:
+#0 /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/bootstrap.php(32): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Support/Str.php(72): mb_strpos(NULL, '/json')
+#2 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(696): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(664): Illuminate\Http\Request->isJson()
+#4 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(847): Illuminate\Http\Request->getInputSource()
+#5 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(57): Illuminate\Http\Request::createFromBase(Object(I in /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/Mbstring.php on line 351
+[20-Jan-2021 01:27:44 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[19-Jan-2021 22:27:44 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/Mbstring.php:351
+Stack trace:
+#0 /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/bootstrap.php(32): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Support/Str.php(72): mb_strpos(NULL, '/json')
+#2 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(696): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(664): Illuminate\Http\Request->isJson()
+#4 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(847): Illuminate\Http\Request->getInputSource()
+#5 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(57): Illuminate\Http\Request::createFromBase(Object(I in /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/Mbstring.php on line 351
+[20-Jan-2021 01:27:45 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[19-Jan-2021 22:27:45 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/Mbstring.php:351
+Stack trace:
+#0 /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/bootstrap.php(32): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Support/Str.php(72): mb_strpos(NULL, '/json')
+#2 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(696): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(664): Illuminate\Http\Request->isJson()
+#4 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(847): Illuminate\Http\Request->getInputSource()
+#5 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(57): Illuminate\Http\Request::createFromBase(Object(I in /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/Mbstring.php on line 351
+[19-Jan-2021 22:27:46 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/Mbstring.php:351
+Stack trace:
+#0 /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/bootstrap.php(32): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Support/Str.php(72): mb_strpos(NULL, '/json')
+#2 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(696): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(664): Illuminate\Http\Request->isJson()
+#4 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(847): Illuminate\Http\Request->getInputSource()
+#5 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(57): Illuminate\Http\Request::createFromBase(Object(I in /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/Mbstring.php on line 351
+[20-Jan-2021 01:28:05 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ixed.7.0.lin' (tried: /opt/php70/lib/php/extensions/no-debug-non-zts-20151012/ixed.7.0.lin (/opt/php70/lib/php/extensions/no-debug-non-zts-20151012/ixed.7.0.lin: undefined symbol: _zval_ptr_dtor), /opt/php70/lib/php/extensions/no-debug-non-zts-20151012/ixed.7.0.lin.so (/opt/php70/lib/php/extensions/no-debug-non-zts-20151012/ixed.7.0.lin.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[19-Jan-2021 22:28:05 America/Fortaleza] PHP Deprecated:  Directive 'allow_url_include' is deprecated in Unknown on line 0
+[19-Jan-2021 22:28:05 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/Mbstring.php:351
+Stack trace:
+#0 /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/bootstrap.php(32): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Support/Str.php(72): mb_strpos(NULL, '/json')
+#2 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(696): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(664): Illuminate\Http\Request->isJson()
+#4 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(847): Illuminate\Http\Request->getInputSource()
+#5 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(57): Illuminate\Http\Request::createFromBase(Object(I in /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/Mbstring.php on line 351
+[20-Jan-2021 01:28:05 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ixed.7.0.lin' (tried: /opt/php70/lib/php/extensions/no-debug-non-zts-20151012/ixed.7.0.lin (/opt/php70/lib/php/extensions/no-debug-non-zts-20151012/ixed.7.0.lin: undefined symbol: _zval_ptr_dtor), /opt/php70/lib/php/extensions/no-debug-non-zts-20151012/ixed.7.0.lin.so (/opt/php70/lib/php/extensions/no-debug-non-zts-20151012/ixed.7.0.lin.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[19-Jan-2021 22:28:05 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/Mbstring.php:351
+Stack trace:
+#0 /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/bootstrap.php(32): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Support/Str.php(72): mb_strpos(NULL, '/json')
+#2 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(696): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(664): Illuminate\Http\Request->isJson()
+#4 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(847): Illuminate\Http\Request->getInputSource()
+#5 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(57): Illuminate\Http\Request::createFromBase(Object(I in /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/Mbstring.php on line 351
+[20-Jan-2021 01:28:06 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[19-Jan-2021 22:28:06 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/Mbstring.php:351
+Stack trace:
+#0 /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/bootstrap.php(32): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Support/Str.php(72): mb_strpos(NULL, '/json')
+#2 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(696): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(664): Illuminate\Http\Request->isJson()
+#4 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(847): Illuminate\Http\Request->getInputSource()
+#5 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(57): Illuminate\Http\Request::createFromBase(Object(I in /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/Mbstring.php on line 351
+[20-Jan-2021 01:28:07 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[19-Jan-2021 22:28:07 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/Mbstring.php:351
+Stack trace:
+#0 /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/bootstrap.php(32): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Support/Str.php(72): mb_strpos(NULL, '/json')
+#2 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(696): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(664): Illuminate\Http\Request->isJson()
+#4 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(847): Illuminate\Http\Request->getInputSource()
+#5 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(57): Illuminate\Http\Request::createFromBase(Object(I in /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/Mbstring.php on line 351
+[19-Jan-2021 22:28:07 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/Mbstring.php:351
+Stack trace:
+#0 /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/bootstrap.php(32): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Support/Str.php(72): mb_strpos(NULL, '/json')
+#2 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(696): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(664): Illuminate\Http\Request->isJson()
+#4 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(847): Illuminate\Http\Request->getInputSource()
+#5 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(57): Illuminate\Http\Request::createFromBase(Object(I in /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/Mbstring.php on line 351
+[27-Jan-2021 05:29:10 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/Mbstring.php:351
+Stack trace:
+#0 /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/bootstrap.php(32): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Support/Str.php(72): mb_strpos(NULL, '/json')
+#2 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(696): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(664): Illuminate\Http\Request->isJson()
+#4 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(847): Illuminate\Http\Request->getInputSource()
+#5 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(57): Illuminate\Http\Request::createFromBase(Object(I in /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/Mbstring.php on line 351
+[27-Jan-2021 10:08:50 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/Mbstring.php:351
+Stack trace:
+#0 /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/bootstrap.php(32): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Support/Str.php(72): mb_strpos(NULL, '/json')
+#2 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(696): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(664): Illuminate\Http\Request->isJson()
+#4 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(847): Illuminate\Http\Request->getInputSource()
+#5 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(57): Illuminate\Http\Request::createFromBase(Object(I in /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/Mbstring.php on line 351
+[27-Jan-2021 10:28:27 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/Mbstring.php:351
+Stack trace:
+#0 /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/bootstrap.php(32): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Support/Str.php(72): mb_strpos(NULL, '/json')
+#2 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(696): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(664): Illuminate\Http\Request->isJson()
+#4 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(847): Illuminate\Http\Request->getInputSource()
+#5 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(57): Illuminate\Http\Request::createFromBase(Object(I in /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/Mbstring.php on line 351
+[27-Jan-2021 10:43:26 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/Mbstring.php:351
+Stack trace:
+#0 /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/bootstrap.php(32): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Support/Str.php(72): mb_strpos(NULL, '/json')
+#2 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(696): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(664): Illuminate\Http\Request->isJson()
+#4 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(847): Illuminate\Http\Request->getInputSource()
+#5 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(57): Illuminate\Http\Request::createFromBase(Object(I in /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/Mbstring.php on line 351
+[28-Jan-2021 04:08:08 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/Mbstring.php:351
+Stack trace:
+#0 /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/bootstrap.php(32): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Support/Str.php(72): mb_strpos(NULL, '/json')
+#2 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(696): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(664): Illuminate\Http\Request->isJson()
+#4 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(847): Illuminate\Http\Request->getInputSource()
+#5 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(57): Illuminate\Http\Request::createFromBase(Object(I in /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/Mbstring.php on line 351
+[28-Jan-2021 07:25:45 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/Mbstring.php:351
+Stack trace:
+#0 /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/bootstrap.php(32): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Support/Str.php(72): mb_strpos(NULL, '/json')
+#2 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(696): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(664): Illuminate\Http\Request->isJson()
+#4 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(847): Illuminate\Http\Request->getInputSource()
+#5 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(57): Illuminate\Http\Request::createFromBase(Object(I in /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/Mbstring.php on line 351
+[28-Jan-2021 08:29:59 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/Mbstring.php:351
+Stack trace:
+#0 /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/bootstrap.php(32): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Support/Str.php(72): mb_strpos(NULL, '/json')
+#2 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(696): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(664): Illuminate\Http\Request->isJson()
+#4 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(847): Illuminate\Http\Request->getInputSource()
+#5 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(57): Illuminate\Http\Request::createFromBase(Object(I in /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/Mbstring.php on line 351
+[28-Jan-2021 13:20:22 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/Mbstring.php:351
+Stack trace:
+#0 /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/bootstrap.php(32): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Support/Str.php(72): mb_strpos(NULL, '/json')
+#2 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(696): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(664): Illuminate\Http\Request->isJson()
+#4 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(847): Illuminate\Http\Request->getInputSource()
+#5 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(57): Illuminate\Http\Request::createFromBase(Object(I in /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/Mbstring.php on line 351
+[28-Jan-2021 13:20:42 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/Mbstring.php:351
+Stack trace:
+#0 /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/bootstrap.php(32): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Support/Str.php(72): mb_strpos(NULL, '/json')
+#2 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(696): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(664): Illuminate\Http\Request->isJson()
+#4 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(847): Illuminate\Http\Request->getInputSource()
+#5 /home1/abizc914/public_html/SAM/vendor/laravel/framework/src/Illuminate/Http/Request.php(57): Illuminate\Http\Request::createFromBase(Object(I in /home1/abizc914/public_html/SAM/vendor/symfony/polyfill-mbstring/Mbstring.php on line 351

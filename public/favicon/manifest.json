@@ -1,0 +1,14 @@
+{
+	"name": "SAM",
+	"icons": [
+		{
+			"src": "{!! url('\/').'\/images' !!}\/android-chrome-192x192.png",
+			"sizes": "192x192",
+			"type": "image\/png"
+		}
+	],
+	"theme_color": "#ffffff",
+	"start_url": "http:\/\/plataforma-sam.abiz.com.br\/",
+	"display": "standalone",
+	"orientation": "portrait"
+}
